@@ -1,11 +1,153 @@
 <wm-page name="mainpage" pagetitle="Main">
-    <wm-header content="header" name="header" height="auto"></wm-header>
-    <wm-top-nav name="topnav" content="topnav"></wm-top-nav>
     <wm-content name="content">
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
-        <wm-page-content columnwidth="8" paddingleft="15" paddingright="15" name="mainContent">
+        <wm-page-content columnwidth="10" name="mainContent" padding="unset 15px" backgroundcolor="#ecf8f9">
+            <wm-header content="header" name="header" height="auto"></wm-header>
+            <wm-layoutgrid name="layoutgrid1" columns="12">
+                <wm-gridrow name="gridrow1">
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn1" class="col-card">
+                        <wm-container name="container1">
+                            <wm-layoutgrid name="layoutgrid2">
+                                <wm-gridrow name="gridrow3">
+                                    <wm-gridcolumn columnwidth="6" name="gridcolumn5">
+                                        <wm-label padding="unset 0.5em" name="label2" caption="Debit Card Account" color="#150b44" fontsize="15" fontweight="bold"></wm-label>
+                                    </wm-gridcolumn>
+                                    <wm-gridcolumn columnwidth="6" name="gridcolumn6" horizontalalign="right">
+                                        <wm-icon name="icon1" iconclass="fa fa-ellipsis-h"></wm-icon>
+                                    </wm-gridcolumn>
+                                </wm-gridrow>
+                                <wm-gridrow name="gridrow4">
+                                    <wm-gridcolumn columnwidth="8" name="gridcolumn7">
+                                        <wm-container name="container17" class="debit-card-back-design">
+                                            <wm-container name="container18" class="debit-card-black"></wm-container>
+                                        </wm-container>
+                                        <wm-container name="container5" class="debit-card-container">
+                                            <wm-container name="container16" class="debit-card-design"></wm-container>
+                                            <wm-label padding="unset 0.5em" name="label17" caption="Finecard" textalign="left" color="#A6D8DE"></wm-label>
+                                            <wm-label padding="unset 0.5em" name="label18" caption="Platinum Debit" class="pull-right" color="#C9EEF3"></wm-label>
+                                            <wm-container name="container11" margin="5% unset 5% 2%">
+                                                <wm-picture name="picture3_1" picturesource="resources/images/imagelists/chipcard.png" width="40px" height="40px"></wm-picture>
+                                                <wm-picture name="picture3" picturesource="resources/images/imagelists/contactless.png" width="20px" height="20px" margin="unset unset unset 2%"></wm-picture>
+                                            </wm-container>
+                                            <wm-label padding="unset 0.5em" name="label19" caption="4771 6080 1080 7889" width="100%" color="#EDFEFE" fontsize="14" fontweight="bold" margin="unset unset 5% unset" class="account-number"></wm-label>
+                                            <wm-label padding="unset unset unset 0.5em" name="label21" caption="Valid Thru" color="#A6D8DE"></wm-label>
+                                            <wm-label padding="unset 0.5em unset unset" name="label21_1" caption="08/25" color="#C9EEF3" margin="unset unset unset 1%"></wm-label>
+                                            <wm-picture class="pull-right" name="picture4" picturesource="resources/images/imagelists/visa-logo.png" width="55px" height="20px"></wm-picture>
+                                        </wm-container>
+                                    </wm-gridcolumn>
+                                    <wm-gridcolumn columnwidth="4" horizontalalign="center" verticalalign="middle" name="gridcolumn8">
+                                        <wm-container name="container6" width="85%" height="100%" horizontalalign="center" backgroundcolor="#F7F7F7" class="add-card-container" margin="16% unset unset unset">
+                                            <wm-button class="btn-default add-card-btn" caption="" type="button" margin="4% 1% unset 1%" name="button4" iconclass="wi wi-plus-circle" iconwidth="20px" iconheight="20px" width="90px" height="75px" backgroundcolor="#CCD4DF"
+                                                borderstyle="solid" borderwidth="1px" bordercolor="#CCD4DF"></wm-button>
+                                            <wm-label padding="unset 0.5em" name="label15" caption="Add Debit Card" color="#46717D" fontweight="bold" textalign="center" margin="15% unset unset unset" fontsize="12"></wm-label>
+                                        </wm-container>
+                                    </wm-gridcolumn>
+                                </wm-gridrow>
+                            </wm-layoutgrid>
+                        </wm-container>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="5" name="gridcolumn2" class="col-card">
+                        <wm-container name="container3">
+                            <wm-layoutgrid name="layoutgrid4">
+                                <wm-gridrow name="gridrow7" horizontalalign="center">
+                                    <wm-label padding="unset 0.5em" name="label6" caption="Your Total Balance" fontsize="15" color="#313B57" fontweight="bold"></wm-label>
+                                </wm-gridrow>
+                                <wm-gridrow name="gridrow8" horizontalalign="center">
+                                    <wm-label padding="unset 0.5em" name="label7" caption="$ 80,201.50" fontsize="35" fontweight="bold" color="#31687B"></wm-label>
+                                </wm-gridrow>
+                                <wm-gridrow name="gridrow9" horizontalalign="center">
+                                    <wm-label padding="unset 0.5em" name="label8" caption="December 21, 2020 . 02:20 PM" fontsize="12" fontweight="bold" color="#B8BBC1"></wm-label>
+                                </wm-gridrow>
+                                <wm-gridrow name="gridrow10">
+                                    <wm-gridcolumn columnwidth="12" name="gridcolumn18" horizontalalign="center">
+                                        <wm-container name="container9" class="trans-action">
+                                            <wm-button class="btn-default trans-action-btn" caption="Send" type="button" margin="unset 0.5em" name="button3" iconclass="fa fa-send" iconposition="top" width="66px" height="66px"></wm-button>
+                                            <wm-button class="btn-default trans-action-btn" caption="Topup" type="button" margin="unset 0.5em" name="button1" iconclass="wi wi-plus-circle" iconposition="top" height="66px" width="66px"></wm-button>
+                                            <wm-button class="btn-default trans-action-btn" caption="More" type="button" margin="unset 0.5em" name="button2" iconclass="fa fa-modx" iconposition="top" width="66px" height="66px"></wm-button>
+                                        </wm-container>
+                                    </wm-gridcolumn>
+                                </wm-gridrow>
+                            </wm-layoutgrid>
+                        </wm-container>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+                <wm-gridrow name="gridrow2">
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn3" class="col-card">
+                        <wm-container name="container2">
+                            <wm-layoutgrid name="layoutgrid3">
+                                <wm-gridrow name="gridrow5">
+                                    <wm-gridcolumn columnwidth="6" name="gridcolumn9">
+                                        <wm-label padding="unset 0.5em" name="label2_1" caption="Recent Transactions" fontsize="15" fontweight="bold" color="#150b44"></wm-label>
+                                    </wm-gridcolumn>
+                                    <wm-gridcolumn columnwidth="6" name="gridcolumn10" horizontalalign="right">
+                                        <wm-layoutgrid name="layoutgrid8">
+                                            <wm-gridrow name="gridrow15">
+                                                <wm-gridcolumn columnwidth="5" name="gridcolumn2_1">
+                                                    <wm-container class="search-icon pull-right" name="container12">
+                                                        <wm-icon name="icon4" iconclass="fa fa-search" iconsize="15px"></wm-icon>
+                                                    </wm-container>
+                                                    <wm-search name="search1" show="false" searchon="typing"></wm-search>
+                                                </wm-gridcolumn>
+                                                <wm-gridcolumn columnwidth="7" name="gridcolumn18_1">
+                                                    <wm-menu iconclass="fa fa-calendar-minus-o" caption="Last 7 Days" autoclose="outsideClick" name="menu1" backgroundcolor="transparent" class="menu7days" dataset="Sun, Mon, Tue, Wed, Thu, Fri, Sat"></wm-menu>
+                                                </wm-gridcolumn>
+                                            </wm-gridrow>
+                                        </wm-layoutgrid>
+                                    </wm-gridcolumn>
+                                </wm-gridrow>
+                                <wm-gridrow name="gridrow6">
+                                    <wm-gridcolumn columnwidth="12" name="gridcolumn20_1" horizontalalign="left">
+                                        <!--<wm-container name="container7">-->
+                                        <wm-list listclass="list-group" itemclass="list-group-item trans-group-item" template="true" template-name="Media List" itemsperrow="xs-1 sm-1 md-1 lg-1" class="media-list trans-list-view" statehandler="none" name="transDataList"
+                                            dataset="bind:Variables.transData.dataSet" navigation="Scroll">
+                                            <wm-listtemplate layout="media" name="listtemplate4_1">
+                                                <wm-container class="media-left media-top trans-item-logo" name="container12">
+                                                    <wm-picture name="Picture" class="media-object" width="32pt" height="32pt" picturesource="bind:Variables.transData.dataSet[$i].url"></wm-picture>
+                                                </wm-container>
+                                                <wm-container class="media-body" padding="unset 1.5em unset 1.25em" name="container13_1">
+                                                    <wm-label class="pull-left" caption="bind:Variables.transData.dataSet[$i].name" name="Name" margin="0em unset 0.5em unset" fontsize="1.143" fontunit="em" color="#555A6A" fontweight="bold"></wm-label>
+                                                    <wm-label name="Amount" class="pull-right text-muted amount-text" caption="bind:Variables.transData.dataSet[$i].amount" fontweight="bold" margin="2% unset unset unset"></wm-label>
+                                                    <wm-label caption="bind:Variables.transData.dataSet[$i].date | toDate: 'dd MMMM yyyy, hh:mm a'" name="Date" class="p text-muted" color="#BDC1C7"></wm-label>
+                                                </wm-container>
+                                            </wm-listtemplate>
+                                        </wm-list>
+                                    </wm-gridcolumn>
+                                    <!--</wm-container>-->
+                                </wm-gridrow>
+                            </wm-layoutgrid>
+                        </wm-container>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="5" name="gridcolumn4" class="col-card">
+                        <wm-container name="container4">
+                            <wm-layoutgrid name="layoutgrid5">
+                                <wm-gridrow name="gridrow11">
+                                    <wm-gridcolumn columnwidth="6" name="gridcolumn11">
+                                        <wm-label padding="unset 0.5em" name="label9" caption="Expenses Instead" fontsize="15" fontweight="bold" color="#150b44"></wm-label>
+                                    </wm-gridcolumn>
+                                    <wm-gridcolumn columnwidth="6" name="gridcolumn12" horizontalalign="right">
+                                        <wm-icon name="icon6" iconclass="fa fa-ellipsis-h"></wm-icon>
+                                    </wm-gridcolumn>
+                                </wm-gridrow>
+                                <wm-gridrow name="gridrow12">
+                                    <wm-gridcolumn columnwidth="12" name="gridcolumn22">
+                                        <wm-container name="container8">
+                                            <wm-container name="container14" horizontalalign="center" margin="15% unset">
+                                                <wm-container name="container15" content="semiCircularChart" class="chart">
+                                                    <wm-param name="percentageValue" value="40%" type="string"></wm-param>
+                                                </wm-container>
+                                            </wm-container>
+                                            <wm-container name="container13" horizontalalign="center" class="total-exp-container">
+                                                <wm-label name="label16" caption="Total Exp:" color="#76959B" fontsize="16"></wm-label>
+                                                <wm-label name="label17_1" caption="$1,820.80" fontweight="bold" color="#457D8B" fontsize="16" margin="unset unset unset 1%"></wm-label>
+                                            </wm-container>
+                                        </wm-container>
+                                    </wm-gridcolumn>
+                                </wm-gridrow>
+                            </wm-layoutgrid>
+                        </wm-container>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
         </wm-page-content>
-        <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>
     </wm-content>
-    <wm-footer name="footer" content="footer"></wm-footer>
 </wm-page>

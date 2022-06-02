@@ -23,6 +23,40 @@
     "operation" : "gotoPage",
     "pageName" : "Main"
   },
+  "goToPage_test1" : {
+    "_id" : "wm-goToPage_test1-wm.NavigationVariable-1653460635347",
+    "name" : "goToPage_test1",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "test1",
+    "dataSet" : [ ],
+    "pageTransitions" : "none"
+  },
+  "Mocky2Invoke2" : {
+    "_id" : "wm-Mocky2Invoke2-wm.ServiceVariable-1653459871838",
+    "name" : "Mocky2Invoke2",
+    "owner" : "App",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ ],
+    "type" : "mocky2.Response.RootResponseROOTEntryItem",
+    "service" : "mocky2",
+    "operation" : "invoke",
+    "operationId" : "mocky2_RestServiceVirtualController-invoke",
+    "operationType" : "get",
+    "serviceType" : "RestService",
+    "dataSet" : [ ],
+    "isList" : true,
+    "maxResults" : 20,
+    "startUpdate" : true,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "isDefault" : true,
+    "controller" : "RestServiceVirtual"
+  },
   "supportedLocale" : {
     "_id" : "wm-wm.Variable1402640443182",
     "name" : "supportedLocale",
@@ -33,6 +67,42 @@
     },
     "type" : "string",
     "isList" : false,
+    "saveInPhonegap" : false
+  },
+  "transData" : {
+    "_id" : "wm-transData-wm.Variable-1653484121776",
+    "name" : "transData",
+    "owner" : "App",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : [ {
+      "id" : 1,
+      "name" : "Paypal - Received",
+      "amount" : "+$8,200.00",
+      "date" : "2020-12-20T08:20:00.00Z",
+      "url" : "https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png"
+    }, {
+      "id" : 2,
+      "name" : "Spotify Premium",
+      "amount" : "-$199.00",
+      "date" : "2020-12-19T19:25:00.00Z",
+      "url" : "https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png"
+    }, {
+      "id" : 3,
+      "name" : "Transferwise - Received",
+      "amount" : "+$1,200.00",
+      "date" : "2020-12-19T10:15:00.00Z",
+      "url" : "https://images.squarespace-cdn.com/content/v1/58775efdd482e90f8535f34f/1613729333184-W414VK400EPXF4O2EOUE/fast-flag-small-01.png"
+    }, {
+      "id" : 4,
+      "name" : "H&M Payment",
+      "amount" : "-$2,200.00",
+      "date" : "2020-12-15T18:30:00.00Z",
+      "url" : "https://logodownload.org/wp-content/uploads/2014/04/h-m-logo.png"
+    } ],
+    "type" : "entry",
+    "isList" : true,
+    "twoWayBinding" : false,
     "saveInPhonegap" : false
   }
 }

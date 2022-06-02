@@ -27,6 +27,24 @@
   "type" : "RIGHTNAV",
   "params" : [ ]
 }, {
+  "name" : "semiCircularChart",
+  "type" : "PARTIAL",
+  "params" : [ {
+    "name" : "percentageValue",
+    "type" : "string"
+  } ]
+}, {
+  "name" : "semiCircularChartTest",
+  "type" : "PARTIAL",
+  "params" : [ {
+    "name" : "percentageValue",
+    "type" : "string"
+  } ]
+}, {
+  "name" : "test1",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
   "name" : "topnav",
   "type" : "TOPNAV",
   "params" : [ ]

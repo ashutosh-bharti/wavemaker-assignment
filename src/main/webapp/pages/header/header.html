@@ -2,10 +2,30 @@
     <wm-layoutgrid name="headerlayout">
         <wm-gridrow name="headerrow">
             <wm-gridcolumn name="headerleft" verticalalign="middle" columnwidth="8">
-                <wm-picture picturesource="resources/images/logos/wm-brand-logo.png" name="AppLogo" marginleft="10"></wm-picture>
+                <wm-layoutgrid name="layoutgrid3">
+                    <wm-gridrow name="gridrow3">
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn5">
+                            <wm-label padding="unset 0.5em" name="label1" caption="Welcome to FinBank" fontsize="25" fontweight="bold" color="#0b3653" textalign="left"></wm-label>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                    <wm-gridrow name="gridrow4">
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn7">
+                            <wm-label padding="unset 0.5em" name="label2" caption="Hi, Barly Vallendito. Welcome Back." fontsize="15" fontweight="bold" color="#b2b7b9" textalign="left" margin="unset unset unset 1%"></wm-label>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                </wm-layoutgrid>
             </wm-gridcolumn>
-            <wm-gridcolumn name="headerright" horizontalalign="right" verticalalign="middle" columnwidth="4" paddingunit="em"  paddingtop="1" paddingright="1">
-                <wm-search name="siteSearch" dataset="Home, Services, Products, About US, Contact"></wm-search>
+            <wm-gridcolumn class="header-right-icons" name="headerright" horizontalalign="right" verticalalign="middle" columnwidth="4" padding="1em unset unset unset">
+                <!--<wm-search name="siteSearch" dataset="Home, Services, Products, About US, Contact" searchon="typing"></wm-search>-->
+                <wm-container class="icon-bg" name="container1">
+                    <wm-icon name="icon2" iconsize="20px" iconclass="fa fa-moon-o"></wm-icon>
+                </wm-container>
+                <wm-container class="icon-bg" name="container2">
+                    <wm-icon name="moonIcon" iconclass="fa fa-bell" iconsize="20px" iconposition="left"></wm-icon>
+                </wm-container>
+                <wm-container class="profile-img" name="container3">
+                    <wm-picture name="picture2" shape="circle" picturesource="resources/images/logos/person.png" width="40px" height="40px" backgroundcolor="ffffff"></wm-picture>
+                </wm-container>
             </wm-gridcolumn>
         </wm-gridrow>
     </wm-layoutgrid>

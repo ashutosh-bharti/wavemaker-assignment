@@ -1,0 +1,22 @@
+{
+  "endpointAddress" : "https://run.mocky.io/v3/7df1af17-b3f0-4042-8184-687445b7c04c",
+  "method" : "GET",
+  "headers" : { },
+  "redirectEnabled" : true,
+  "requestBody" : "",
+  "queryParams" : { },
+  "authDetails" : null,
+  "contentType" : "application/json",
+  "multiParamInfoList" : null,
+  "sampleHttpResponseDetails" : {
+    "statusCode" : 200,
+    "headers" : {
+      "Content-Type" : [ "application/json; charset=UTF-8" ],
+      "Date" : [ "Thu, 19 May 2022 12:49:46 GMT" ],
+      "Content-Length" : [ "791" ],
+      "Sozu-Id" : [ "01G3E5VX5WAX516EBMGFH98K2T" ]
+    },
+    "responseBody" : "[{\"id\":1,\"name\":\"Paypal - Received\",\"amount\":\"+$8,200.00\",\"date\":\"2020-12-20T08:20:00.000Z\",\"url\":\"https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png\"}]",
+    "convertedResponse" : null
+  }
+}

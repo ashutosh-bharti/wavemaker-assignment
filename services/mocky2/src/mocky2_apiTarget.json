@@ -1,0 +1,86 @@
+{
+  "basePath" : "${rest.mocky2.basepath}",
+  "paths" : {
+    "/7df1af17-b3f0-4042-8184-687445b7c04c" : {
+      "x-WM-BASE_PATH" : "/7df1af17-b3f0-4042-8184-687445b7c04c",
+      "x-WM-TAG" : "RestServiceVirtualController",
+      "x-WM-RELATIVE_PATH" : "",
+      "get" : {
+        "x-WM-METHOD_NAME" : "invoke",
+        "x-WM-ACCESS_SPECIFIER" : "APP_ONLY",
+        "produces" : [ "application/json" ],
+        "operationId" : "mocky2_RestServiceVirtualController-invoke",
+        "responses" : {
+          "200" : {
+            "schema" : {
+              "x-WM-IS_LIST" : true,
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/Response.RootResponseROOTEntryItem"
+              }
+            },
+            "description" : "Success"
+          }
+        },
+        "tags" : [ "RestServiceVirtualController" ],
+        "consumes" : [ "application/json" ]
+      },
+      "x-WM-COMPLETE_PATH" : "${rest.mocky2.scheme}://${rest.mocky2.host}${rest.mocky2.basepath}/7df1af17-b3f0-4042-8184-687445b7c04c"
+    }
+  },
+  "host" : "${rest.mocky2.host}",
+  "schemes" : [ "${rest.mocky2.scheme}" ],
+  "definitions" : {
+    "Response.RootResponseROOTEntryItem" : {
+      "x-WM-FULLY_QUALIFIED_NAME" : "mocky2.Response.RootResponseROOTEntryItem",
+      "x-WM-TAGS" : [ "RestServiceVirtualController" ],
+      "required" : [ "amount", "date", "id", "name", "url" ],
+      "properties" : {
+        "date" : {
+          "type" : "string"
+        },
+        "amount" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "id" : {
+          "format" : "int32",
+          "type" : "integer"
+        },
+        "url" : {
+          "type" : "string"
+        }
+      }
+    },
+    "RootResponse" : {
+      "x-WM-FULLY_QUALIFIED_NAME" : "mocky2.RootResponse",
+      "x-WM-TAGS" : [ "RestServiceVirtualController" ],
+      "required" : [ "RootResponseROOT" ],
+      "properties" : {
+        "RootResponseROOT" : {
+          "x-WM-IS_LIST" : true,
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Response.RootResponseROOTEntryItem"
+          }
+        }
+      }
+    }
+  },
+  "swagger" : "2.0",
+  "info" : {
+    "x-WM-USE_PROXY_FOR_WEB" : true,
+    "x-WM-USE_PROXY_FOR_MOBILE" : true,
+    "x-WM-API_ID" : "f42ff185-9778-4aa4-9e34-7b178052c4ce",
+    "x-WM-SERVICE_ID" : "mocky2",
+    "version" : "2.0",
+    "x-WM-SERVICE_TYPE" : "RestService",
+    "x-WM-USE_WITH_CREDENTIALS" : false
+  },
+  "tags" : [ {
+    "name" : "RestServiceVirtualController",
+    "description" : "Rest service swagger documentation"
+  } ]
+}

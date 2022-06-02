@@ -1,0 +1,23 @@
+.header-right-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-bg {
+    border-radius: 16px;
+    padding: 4%;
+    margin-left: 2%;
+    width: 54px;
+    height: 54px;
+    background: #fff;
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 / 6%);
+}
+
+.profile-img {
+    background-color: #fff;
+    width: 54px;
+    height: 54px;
+    padding: 2%;
+    margin-left: 2%;
+    border-radius: 50%;
+}

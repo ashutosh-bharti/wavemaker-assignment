@@ -1,0 +1,138 @@
+.wm-app .app-header, .wm-app .app-mobile-header {
+    background-color: inherit;
+    color: inherit;
+    box-shadow: none;
+    margin-left: 2%;
+}
+
+.wm-app .app-left-panel .nav, .wm-app .app-right-panel .nav, .wm-app .app-left-panel .app-nav.nav-pills, .wm-app .app-right-panel .app-nav.nav-pills {
+    margin-top: 0;
+}
+
+.wm-app .app-left-panel .nav li a .anchor-caption {
+    padding: 0;
+}
+
+.col-card {
+    background-color: #fff;
+    border-radius: 4%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.debit-card-container {
+    background-color: #30677A;
+    border-radius: 16px;
+    padding: 4%;
+    width: 267px;
+    height: 171px;
+    position: relative;
+    margin-top: 5%;
+}
+
+.debit-card-design {
+    position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-3%, -50%);
+    height: 170px;
+    width: 139px;
+    border-radius: 150px 30px 30px 150px;
+	background-color: #387687;
+}
+
+.debit-card-back-design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(8%, 0%);
+    height: 171px;
+    width: 267px;
+    border-radius: 20px;
+	background-color: #8EB3BD;
+}
+
+.debit-card-black {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    height: 40px;
+    width: 30px;
+	background-color: #111111;
+}
+
+.account-number {
+  letter-spacing: 2.2px;
+}
+
+.add-card-container {
+    padding: 7%;
+    border-radius: 10px;
+}
+
+.add-card-btn {
+    border-radius: 10px;
+    box-shadow: 0px 21px 10px -13px #7f808b;
+}
+
+.trans-action {
+    background-color: #E7F0F2;
+    border-radius: 16px;
+    margin: 2% 14%;
+}
+
+.trans-action-btn {
+    margin: 5%;
+    border-radius: 16%;
+    color: #7E8390;
+}
+
+.search-icon {
+    background-color: #fff;
+    border: 1px solid #e5e1e1;
+    border-radius: 8px;
+    padding: 2%;
+    width: 26px;
+    box-shadow: none;
+}
+
+.menu7days .btn {
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1px solid #e5e1e1;
+}
+
+.trans-list-view {
+    margin-top: 2%;
+}
+
+.trans-group-item {
+    border: 0;
+}
+
+.trans-group-item:nth-child(odd) .amount-text {
+    color: #30677A;
+}
+
+.trans-group-item:nth-child(even) .amount-text {
+    color: #A0A6B2;
+}
+
+.trans-item-logo {
+    background-color: #EAF3F9;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.total-exp-container {
+    background-color: #E7F0F2;
+    border-radius: 16px;
+    padding: 5%;
+    margin: 4% 20%;
+}
+
+.chart {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

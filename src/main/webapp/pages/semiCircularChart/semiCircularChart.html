@@ -1,0 +1,10 @@
+<wm-partial name="partial2">
+    <wm-container name="chartContainer" class="half-arc">
+        <wm-container name="chartProgressContainer" class="half-progress" conditionalstyle="bind:{'background-image': &quot;conic-gradient(#30677A calc(&quot; + pageParams.percentageValue + &quot;/ 2), #E7F0F2 0)&quot;}">
+            <wm-container name="container2" class="text-container">
+                <wm-label caption="bind:pageParams.percentageValue" class="app-label label-text" name="label1"></wm-label>
+                <wm-label caption="Normal Level" class="app-label label-text normal-level" name="label2"></wm-label>
+            </wm-container>
+        </wm-container>
+    </wm-container>
+</wm-partial>
